@@ -37,7 +37,7 @@ def add_documents_to_db(filename:str, pages_text:list[str]):
 
        print(f"Stored {len(pages_text)} pages from {filename} to the vector database.")
 
-       def query_documents(query_text:str, n_results:int=2):
+def query_documents(query_text:str, n_results:int=2):
            """
            Query the vector database for similar texts
            """
